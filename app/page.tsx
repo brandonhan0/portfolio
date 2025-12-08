@@ -487,7 +487,7 @@ function FunPage() {
     },
     { 
       title: 'golf', 
-      desc: 'i suck at golf but its for fathers day', 
+      desc: 'i suck at golf but its for thanksgivng', 
       image: '/images/image6.jpeg'
     },
     { 
