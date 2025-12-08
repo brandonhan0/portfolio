@@ -330,17 +330,14 @@ function ProjectsPage() {
       title: 'national park guide app',
       description: 'simple swift ui app using the mapkit framework. was pretty much a gallery for national parks in the us, had a map view with a summary and annotations for each park. clicking on the annotation would bring up a detail view with more information and pictures of the park. implemented using swift and swiftui, learned a lot about mapkit and how to use it effectively.',
       tech: ['Swift', 'MapKit'],
-      image: '/images/image1.jpeg'
+      image: '/images/image15.png'
     }
   ];
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-20">
-      <div className="mb-4 inline-block px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-300 text-sm">
-        Projects
-      </div>
       <h2 className="text-4xl md:text-6xl font-bold mb-12 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-        Featured Work
+        my projects
       </h2>
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((project, idx) => (
